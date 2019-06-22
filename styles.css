@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkred;
+}
+
+.edit-section {
+  border: 2px dashed white;
+  box-sizing: border-box;
+  height: 60vh;
+}
+
+.result-section {
+  border: 2px dashed white;
+  box-sizing: border-box;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-text {
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  text-align: right;
+  width: 60%;
+}
